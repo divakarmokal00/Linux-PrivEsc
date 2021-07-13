@@ -16,7 +16,7 @@ https://tryhackme.com/room/linuxprivesc
         Remember to exit out of  the shell and/or re-establish a session as the "user" account before starting the next task!
         
         
-  **************************************Answer the questions below************************************************
+    **************************************Answer the questions below************************************************
                 
                 1.1. Deploy the machine and login to the "user" account using SSH.       
                 ==> No answer needed
