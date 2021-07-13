@@ -3,7 +3,7 @@ tryhackme.com
 https://tryhackme.com/room/linuxprivesc
 
 
-                                ******************Linux-PrivEsc*************
+                                ******************Deploy the Vulnerable Debian VM *************
                                 
     1.Make sure you are connected to the TryHackMe VPN or using the in-browser Kali instance before trying to access the Debian VM!
       SSH should be available on port 22. You can login to the "user" account using the following command:
@@ -16,7 +16,7 @@ https://tryhackme.com/room/linuxprivesc
         Remember to exit out of  the shell and/or re-establish a session as the "user" account before starting the next task!
         
         
-    **************************************Answer the questions below************************************************
+              **************************************Answer the questions below************************************************
                 
                 1.1. Deploy the machine and login to the "user" account using SSH.       
                 ==> No answer needed
@@ -30,6 +30,10 @@ https://tryhackme.com/room/linuxprivesc
                         ![image](https://user-images.githubusercontent.com/76117615/125400239-48fbb180-e377-11eb-9ab2-dfa835947e60.png)
 
 
-                1.3
+               - ************************************** Service Exploits - **************************************-
 
+          The MySQL service is running as root and the "root" user for the service does not have a password assigned. We can use a popular exploit that takes               advantage of User Defined Functions (UDFs) to run system commands as root via the MySQL service.
+          Change into the /home/user/tools/mysql-udf directory:
+
+            cd /home/user/tools/mysql-udf
                         
